@@ -1,0 +1,54 @@
+.wholeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.registracia{
+    width: 384.211px;
+    height: 438px;
+    border-radius: 2px;
+    border: 1px solid #FFF;
+    background: var(--Primary-Modal-BG, linear-gradient(180deg, #345161 0%, #7B5A5A 100%)); 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:38px;
+}
+.witeli{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+.header{
+    position: absolute;
+    top: 12%;
+    left: 37%;
+}
+.forName{
+    margin-top: 76px;
+}
+.forName, .forPass{
+    width: 285.853px;
+height: 55.326px;
+border-radius: 2px;
+background: #C3B6B2;
+border: none;
+color: #501C1C;
+font-family: "BPG Arial";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+text-indent: 20px;
+}
+.image-button{
+    background-image: url("./Images/Base Btn.svg");
+    width: 227.453px;
+height: 55.326px;
+border: none;
+}

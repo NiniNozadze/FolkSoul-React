@@ -1,0 +1,86 @@
+.social{
+    width: 900px;
+height: 864px;
+border-radius: 20px;
+background: var(--Content-White, #FBFBFB);
+box-shadow: 4px 4px 20px 0px #4D4D4D inset;
+margin-left: 433px;
+margin-top: 100px;
+position: relative;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 55px;
+}
+.socialuriBmulebi{
+    height: 60px;
+color: #000;
+text-align: center;
+font-family: "BPG Nino Mtavruli";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+hr{
+    background: black;
+    width: 655px;
+    margin-left: 12px;
+    margin-top: -16px;
+ }
+ .socialsDiv{
+    width: 802px;
+height: 62px;
+border-radius: 5px;
+border: 1px solid #000;
+background: #333;
+box-shadow: 2px 4px 14px 0px #000;
+position: relative;
+ }
+.yt{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+.cmBack{
+    position: absolute;
+    top: 37%;
+    left: 9%;
+    width: 23px;
+}
+.cameraImg{
+    position: absolute;
+    width: 18px;
+    top: 41%;
+    left: 9.2%;
+}
+.networks{
+    color: var(--Content-White, #FBFBFB);
+text-align: center;
+font-family: "BPG Nino Mtavruli";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.98px;
+}
+.CTA{
+    position: absolute;
+    top: 28%;
+    right: 2%;
+}
+.links{
+    color: #2F80ED;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}

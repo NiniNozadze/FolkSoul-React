@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+body{
+  font-family: 'Clicker Script', cursive;
+  background: var(--Primary-BG, radial-gradient(50% 50% at 50% 50%, #534571 0%, #342C46 100%));
+  min-width: 100vw;
+  min-height: 100vh;
+}

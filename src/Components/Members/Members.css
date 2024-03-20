@@ -1,0 +1,103 @@
+.personsDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.membersDiv{
+width: 900px;
+height: 864px;
+border-radius: 20px;
+background: var(--Content-White, #FBFBFB);
+box-shadow: 4px 4px 20px 0px #4D4D4D inset;
+margin-left: 433px;
+margin-top: 100px;
+position: relative;
+}
+.satauri{
+height: 60px;
+color: #000;
+text-align: center;
+font-family: "BPG Nino Mtavruli";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+hr{
+background: black;
+width: 655px;
+margin-left: 133px;
+margin-top: 25px;
+}
+.firstPerson{
+    width: 216px;
+height: 278px;
+border-radius: 3px;
+border: 1px solid #000;
+background: var(--Gray-1, #333);
+box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.63);
+position: relative;
+}
+.eclipse{
+    position: absolute;
+    top: 12%;
+    left: 16%;
+}
+.person{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+.wrapper{
+    position: absolute;
+    top: 83%;
+    left: -4%;
+}
+.names{
+    color: #FFF;
+text-align: center;
+font-family: "BPG Nino Mtavruli";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.98px;
+position: absolute;
+    top: 71%;
+    left: 43%;
+}
+.camera{
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    z-index: 1;
+    width: 26px;
+}
+.cmraBg{
+    position: absolute;
+    top: 51%;
+    left: 62%;
+}
+.pagination{
+    position: absolute;
+    top: 70%;
+    left: 46%;
+}
+.new{
+    color: #3A7DA3;
+text-align: center;
+font-family: "BPG Nino Mtavruli";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.9px;
+text-decoration-line: underline;
+position: absolute;
+    top: 86%;
+    left: 40%;
+}

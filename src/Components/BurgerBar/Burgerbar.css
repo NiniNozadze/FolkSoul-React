@@ -1,0 +1,33 @@
+.justDiv{
+    position: absolute;
+    top: 30%;
+}
+.home{
+    position: absolute;
+    top: 30%;
+    width: 326px;
+height: 476px;
+background:  #333;
+stroke-width: 1px;
+stroke: #898989;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    border-bottom-right-radius: 7%;
+    border-top-right-radius: 7%;
+}
+.same{
+    display: flex;
+    gap:20px;
+    margin-left: 30px;
+}
+.headings{
+    color: var(--Content-White, #FBFBFB);
+font-family: "BPG Nino Mtavruli";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+}
